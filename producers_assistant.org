@@ -7,6 +7,14 @@
     - Create README
   - Output: ✅ Clean project skeleton with README
 
+** TODO Integrate LLM backend
+  - Key Tasks:
+    - Choose LLM (OpenAI, HuggingFace, local, etc.)
+    - Set up LangChain LLM wrapper
+    - Configure environment (API key, model name)
+    - Test standalone generation
+  - Output: ✅ LLM integrated and ready for RetrievalQA
+
 ** TODO Generate & embed fake dataset
   - Key Tasks:
     - Generate hallucinated articles
