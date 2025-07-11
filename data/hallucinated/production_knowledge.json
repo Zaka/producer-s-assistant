@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Parallel compression is a technique where you blend a heavily compressed signal with the original uncompressed one. This adds punch and sustain without squashing dynamics.",
+    "metadata": {
+      "topic": "compression",
+      "level": "intermediate",
+      "source": "fakeblog.com/mixing101"
+    }
+  },
+  {
+    "text": "When EQing vocals, cut muddy frequencies around 200-400Hz, and boost some air above 10kHz if needed. Always use subtractive EQ first.",
+    "metadata": {
+      "topic": "EQ",
+      "level": "beginner",
+      "source": "fakeblog.com/vocal-tips"
+    }
+  },
+  {
+    "text": "A plate reverb is great for vocals because it adds brightness and clarity. Use a decay time around 1.2s and high-pass the reverb tail at 200Hz.",
+    "metadata": {
+      "topic": "reverb",
+      "level": "intermediate",
+      "source": "fakeblog.com/reverb-guide"
+    }
+  },
+  {
+    "text": "Sidechain compression is often used in EDM to duck the bass when the kick hits. Set a fast attack and a medium release for a classic pumping effect.",
+    "metadata": {
+      "topic": "sidechain",
+      "level": "advanced",
+      "source": "fakeblog.com/sidechain-secrets"
+    }
+  },
+  {
+    "text": "Additive EQ involves boosting specific frequencies to enhance a sound. It's useful after subtractive EQ to add presence or clarity.",
+    "metadata": {
+      "topic": "EQ",
+      "level": "intermediate",
+      "source": "fakeblog.com/eq-deepdive"
+    }
+  },
+  {
+    "text": "Bus processing lets you apply effects to a group of tracks, like compressing all drums together. This helps glue the mix and control peaks.",
+    "metadata": {
+      "topic": "mixing",
+      "level": "intermediate",
+      "source": "fakeblog.com/mixflow"
+    }
+  }
+]

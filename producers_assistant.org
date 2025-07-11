@@ -1,0 +1,51 @@
+* PROJ Producer's assistant
+** DONE Set up project scaffolding
+  - Key Tasks:
+    - Create project structure
+    - Install dependencies
+    - Initialize Git
+    - Create README
+  - Output: ✅ Clean project skeleton with README
+
+** TODO Generate & embed fake dataset
+  - Key Tasks:
+    - Generate hallucinated articles
+    - Chunk text using LangChain
+    - Embed with LangChain
+    - Store in Elasticsearch
+  - Output: ✅ Synthetic dataset stored in Elasticsearch
+
+** TODO Build QA retrieval pipeline
+  - Key Tasks:
+    - Set up LangChain ConversationalRetrievalChain
+    - Add memory for follow-up questions
+    - Test retrieval with music production queries
+  - Output: ✅ Working QA pipeline over music content
+
+** TODO (Optional) Build minimal UI
+  - Key Tasks:
+    - Create Gradio or Streamlit UI
+    - Connect to LangChain backend
+    - Display answers and sources
+  - Output: ✅ Local web interface
+
+** TODO Start collecting real content
+  - Key Tasks:
+    - Scrape or manually save 5–10 real blog/forum articles
+    - Extract raw text and metadata
+  - Output: ✅ Initial real article dataset
+
+** TODO Index real data + compare
+  - Key Tasks:
+    - Chunk and embed real articles
+    - Add to Elasticsearch index
+    - Compare performance to hallucinated dataset
+  - Output: ✅ Real dataset integrated
+
+** TODO Polish, document, and share
+  - Key Tasks:
+    - Finalize UI and code
+    - Write full README with instructions
+    - Optional: Record demo video
+    - Post project to GitHub and/or LinkedIn
+  - Output: ✅ Shareable, well-documented portfolio project
