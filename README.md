@@ -11,3 +11,27 @@ An AI-powered assistant that answers music production questions using LangChain 
 - LangChain
 - Elasticsearch
 - OpenAI Embeddings
+
+## How to run it
+
+If first time deploying elasticsearch docker:
+
+docker run -d --name elastic \
+  -p 9200:9200 \
+  -e "discovery.type=single-node" \
+  -e "xpack.security.enabled=false" \
+  docker.elastic.co/elasticsearch/elasticsearch:8.12.2
+
+If the container already deployed:
+
+docker container start /elastic
+
+If first time populating elasticsearch db or after a dataset update:
+
+cd app/
+python ingest_data.py
+
+Finally, to run the assistant:
+
+cd app/
+python qa_pipeline.py

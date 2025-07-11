@@ -4,3 +4,4 @@ elasticsearch
 sentence-transformers
 tiktoken
 python-dotenv
+ollama

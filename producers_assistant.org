@@ -7,7 +7,7 @@
     - Create README
   - Output: ✅ Clean project skeleton with README
 
-** TODO Integrate LLM backend
+** DONE Integrate LLM backend
   - Key Tasks:
     - Choose LLM (OpenAI, HuggingFace, local, etc.)
     - Set up LangChain LLM wrapper
