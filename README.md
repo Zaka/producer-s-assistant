@@ -14,6 +14,10 @@ An AI-powered assistant that answers music production questions using LangChain 
 
 ## How to run it
 
+Install all the requirements
+
+  pip install -r requirements.txt
+
 If first time deploying elasticsearch docker:
 
 docker run -d --name elastic \
