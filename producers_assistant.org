@@ -32,7 +32,7 @@
 
 ** DONE (Optional) Build minimal UI
   - Key Tasks:
-    - Create Gradio or Streamlit UI
+    - Create Streamlit UI
     - Connect to LangChain backend
     - Display answers and sources
   - Output: ✅ Local web interface
