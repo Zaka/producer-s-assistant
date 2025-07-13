@@ -15,7 +15,7 @@
     - Test standalone generation
   - Output: ✅ LLM integrated and ready for RetrievalQA
 
-** TODO Generate & embed fake dataset
+** DONE Generate & embed fake dataset
   - Key Tasks:
     - Generate hallucinated articles
     - Chunk text using LangChain
@@ -23,7 +23,7 @@
     - Store in Elasticsearch
   - Output: ✅ Synthetic dataset stored in Elasticsearch
 
-** TODO Build QA retrieval pipeline
+** DONE Build QA retrieval pipeline
   - Key Tasks:
     - Set up LangChain ConversationalRetrievalChain
     - Add memory for follow-up questions
