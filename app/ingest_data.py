@@ -12,7 +12,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # === 1. Load JSON Data ===
-DATA_PATH = Path("../data/hallucinated/production_knowledge.json")
+# Resolve the dataset path relative to this file so the script works
+# regardless of the current working directory.
+DATA_PATH = (
+    Path(__file__).resolve().parent.parent
+    / "data"
+    / "hallucinated"
+    / "production_knowledge.json"
+)
 
 with open(DATA_PATH, "r", encoding="utf-8") as f:
     raw_data = json.load(f)
