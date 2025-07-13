@@ -35,3 +35,8 @@ Finally, to run the assistant:
 
 cd app/
 python qa_pipeline.py
+
+To launch the Streamlit web interface instead:
+
+cd app/
+streamlit run streamlit_app.py

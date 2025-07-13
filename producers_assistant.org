@@ -30,7 +30,7 @@
     - Test retrieval with music production queries
   - Output: ✅ Working QA pipeline over music content
 
-** TODO (Optional) Build minimal UI
+** DONE (Optional) Build minimal UI
   - Key Tasks:
     - Create Gradio or Streamlit UI
     - Connect to LangChain backend
